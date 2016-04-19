@@ -1,0 +1,186 @@
+{
+  "status" : "SUCCESS",
+  "message" : null,
+  "data" : [ {
+    "responseHeader" : {
+      "status" : 0,
+      "QTime" : 657,
+      "params" : {
+        "q" : "*:*  AND FROM_DOS_DT:[2011-01-01T00:00:00Z TO * ] AND TO_DOS_DT:[* TO 2012-12-31T00:00:00Z ]",
+        "stats" : "true",
+        "indent" : "true",
+        "stats.facet" : "C71_S",
+        "rows" : "0",
+        "wt" : "json",
+        "stats.field" : "C21_L"
+      }
+    },
+    "response" : {
+      "numFound" : 9180274,
+      "start" : 0,
+      "docs" : [ ]
+    },
+    "stats" : {
+      "stats_fields" : {
+        "C21_L" : {
+          "min" : -20132.0,
+          "max" : 643613.0,
+          "count" : 9180274,
+          "missing" : 0,
+          "sum" : 1.1636577937E10,
+          "sumOfSquares" : 1.99409046779573E14,
+          "mean" : 1267.5632488747067,
+          "stddev" : 4484.947675871138,
+          "facets" : {
+            "C71_S" : {
+              "" : {
+                "min" : -20132.0,
+                "max" : 643613.0,
+                "count" : 7967052,
+                "missing" : 0,
+                "sum" : 1.0203783657E10,
+                "sumOfSquares" : 1.65094914691757E14,
+                "mean" : 1280.7477165957998,
+                "stddev" : 4368.2830076307655
+              },
+              "NULL" : {
+                "min" : -187.0,
+                "max" : 321453.0,
+                "count" : 313356,
+                "missing" : 0,
+                "sum" : 3.4368954E7,
+                "sumOfSquares" : 2.44231491238E11,
+                "mean" : 109.68021675027764,
+                "stddev" : 876.0014397742937
+              },
+              "Liver" : {
+                "min" : -61.0,
+                "max" : 198499.0,
+                "count" : 6812,
+                "missing" : 0,
+                "sum" : 5605180.0,
+                "sumOfSquares" : 2.45369815392E11,
+                "mean" : 822.8391074574281,
+                "stddev" : 5945.448359947457
+              },
+              "Lung" : {
+                "min" : -42.0,
+                "max" : 124516.0,
+                "count" : 2326,
+                "missing" : 0,
+                "sum" : 2583371.0,
+                "sumOfSquares" : 5.6414683147E10,
+                "mean" : 1110.6496130696476,
+                "stddev" : 4798.990178070716
+              },
+              "Metabolic" : {
+                "min" : -2439.0,
+                "max" : 167594.0,
+                "count" : 15260,
+                "missing" : 0,
+                "sum" : 2.636745E7,
+                "sumOfSquares" : 4.17050647932E11,
+                "mean" : 1727.8800786369593,
+                "stddev" : 4934.135000902037
+              },
+              "Vascular" : {
+                "min" : 0.0,
+                "max" : 241350.0,
+                "count" : 33,
+                "missing" : 0,
+                "sum" : 505302.0,
+                "sumOfSquares" : 6.5501786442E10,
+                "mean" : 15312.181818181818,
+                "stddev" : 42486.95032922943
+              },
+              "Musculoskeletal" : {
+                "min" : -61.0,
+                "max" : 15903.0,
+                "count" : 131,
+                "missing" : 0,
+                "sum" : 162326.0,
+                "sumOfSquares" : 1.15781387E9,
+                "mean" : 1239.1297709923665,
+                "stddev" : 2712.7489475181287
+              },
+              "Gastrointestinal" : {
+                "min" : 2317.0,
+                "max" : 2317.0,
+                "count" : 1,
+                "missing" : 0,
+                "sum" : 2317.0,
+                "sumOfSquares" : 5368489.0,
+                "mean" : 2317.0,
+                "stddev" : 0.0
+              },
+              "Blood" : {
+                "min" : -84.0,
+                "max" : 254699.0,
+                "count" : 23156,
+                "missing" : 0,
+                "sum" : 1.3690916E7,
+                "sumOfSquares" : 2.31142347054E11,
+                "mean" : 591.2470202107445,
+                "stddev" : 3103.676282722702
+              },
+              "Infection" : {
+                "min" : -13078.0,
+                "max" : 313114.0,
+                "count" : 50958,
+                "missing" : 0,
+                "sum" : 5.24914235E8,
+                "sumOfSquares" : 1.8093906638167E13,
+                "mean" : 10300.919090231171,
+                "stddev" : 15778.810139691914
+              },
+              "Neoplasm" : {
+                "min" : -2260.0,
+                "max" : 377076.0,
+                "count" : 404592,
+                "missing" : 0,
+                "sum" : 5.83768991E8,
+                "sumOfSquares" : 1.2386124824911E13,
+                "mean" : 1442.8584623521967,
+                "stddev" : 5341.544240346704
+              },
+              "Spinal" : {
+                "min" : 0.0,
+                "max" : 17773.0,
+                "count" : 4,
+                "missing" : 0,
+                "sum" : 34488.0,
+                "sumOfSquares" : 4.97885942E8,
+                "mean" : 8622.0,
+                "stddev" : 8175.785507623513
+              },
+              "Cerebrovascular Disease" : {
+                "min" : 226.0,
+                "max" : 472.0,
+                "count" : 2,
+                "missing" : 0,
+                "sum" : 698.0,
+                "sumOfSquares" : 273860.0,
+                "mean" : 349.0,
+                "stddev" : 173.9482681718907
+              },
+              "Diabetes" : {
+                "min" : -4718.0,
+                "max" : 243276.0,
+                "count" : 396591,
+                "missing" : 0,
+                "sum" : 2.40790052E8,
+                "sumOfSquares" : 2.572728511372E12,
+                "mean" : 607.1495621433669,
+                "stddev" : 2473.5586692676584
+              }
+            }
+          }
+        }
+      }
+    }
+  } ],
+  "dataType" : [ ],
+  "dataSetQuery" : "*:*  AND FROM_DOS_DT:[2011-01-01T00:00:00Z TO * ] AND TO_DOS_DT:[* TO 2012-12-31T00:00:00Z ]",
+  "xRangeID" : null,
+  "yRangeID" : null
+}
